@@ -16,6 +16,7 @@ Main purpose of this program is cut the '-min.' part of compressed image folders
 Images inside of the folder are  test images  for this program.
 
 All information will have been given you at the command line interface after run the python file. 
+
 ------------------------------------------------------------------------------
 Modules:
 
