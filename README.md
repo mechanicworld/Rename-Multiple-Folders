@@ -1,5 +1,7 @@
 # Rename-Multiple-Folders
 
+Oğuz DEMİR : Please do not hesitate to ask anything. https://www.linkedin.com/in/oguz-demir-engineer/
+
 Problem : 
 -
 After image compression at imagecompressor.com , at the end of the folder names "-min" is added.
@@ -23,10 +25,12 @@ Images inside of the folder are  test images  for this program.
 
 All information will have been given you at the command line interface after run the python file. 
 
+------------------------------------------------------------------------------
+
 Notes: 
 -
 
-Please reead the comments inside of the folderRename.py file.
+Please read the comments inside of the folderRename.py file.
 -
 In the program you have 2 different options for renaming file;
 -
@@ -40,14 +44,16 @@ In the program you have 2 different options for renaming file;
 
 ------------------------------------------------------------------------------
 Modules:
-
+-
 import os ,time, sys, random
 
 Thanks to : 
--Adrian LANG
--Jeswin THOMAS
--Matheus BERTELLI
--Philippe DONN
+-
+-Adrian LANG-
+-Jeswin THOMAS-
+-Matheus BERTELLI-
+-Philippe DONN-
+
 for test photos from pexels.com
 
 
