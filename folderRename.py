@@ -19,9 +19,11 @@ def renameFolder():
     #Get directory path
     while 1:
         pathLocation = input("'I want to give the path': enter 1  /  'The program is in my image folder': enter 0\nEnter Value (1/0): ")
+        # You can try the imageTest folder for giving path version
         if pathLocation == "1":
             dirPath = input("""Enter the image folder path (ex: C:\\Users\\Oguz\\Desktop\\Rename-Multiple-Folders\\imageTest\\)\n!!Do not forget the add slash "//" end of the path name !!!\n Folder Path :""")
             break
+        # You can run the program directly inside of the folder, this works for files at the same level of python file
         elif pathLocation == "0":
             dirPath = os.getcwd()
             break
