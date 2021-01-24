@@ -11,7 +11,7 @@ from imagecompressor.com .""")
 
 replaceTag = input("Enter replacement value (exp: -min.): ")
 replaceValue = input("Enter replce (exp: . ): ")
-print("All '{}' chars will replave with '{}'".format(replaceTag,replaceValue))
+print("All '{}' chars will replace with '{}'".format(replaceTag,replaceValue))
 
 def renameFolder():
     ''' This program works for renaming folder'''
@@ -45,8 +45,8 @@ def renameFolder():
         # Except .py folders 
         if each[-2:] != "py":
             eachNew = each.replace(replaceTag, replaceValue)
-            source = dirPath+each
-            dist = dirPath+eachNew
+            source = dirPath+"\\"+each
+            dist = dirPath+"\\"+eachNew
             os.rename(source, dist)
             message = "{} is converted to {}".format(each,eachNew)
             
@@ -66,6 +66,11 @@ def renameFolder():
         time.sleep(0.05)
     return 
 
+
 if __name__ == "__main__":
     renameFolder()
+
+
+
+
 
